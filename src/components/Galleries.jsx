@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Col, Row } from "react-bootstrap";
 import SingleFilm from "./SingleFilm";
 
-class NowInTendency extends Component {
+class Galleries extends Component {
   render() {
     return (
       <Row className="flex-nowrap overflow-hidden text-center">
@@ -19,4 +19,4 @@ class NowInTendency extends Component {
   }
 }
 
-export default NowInTendency;
+export default Galleries;

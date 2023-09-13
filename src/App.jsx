@@ -26,7 +26,7 @@ function App() {
             }
           />
 
-          <Route path="/showTv" element={<ShowTv />} />
+          <Route path="/showTv" element={<ShowTv firstSearch={"hunger%20games"} />} />
           <Route path="/movieDetails/:movieId" element={<MovieDetails />} />
 
           <Route path="/profilePage" element={<ProfilePage />} />
