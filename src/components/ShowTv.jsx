@@ -4,8 +4,6 @@ import { useEffect, useState } from "react";
 import Galleries from "./Galleries";
 
 const ShowTv = (props) => {
-  console.log("ci sono");
-
   const [firstGallery, setFirstGallery] = useState(null);
 
   const fetchGalleries = async () => {

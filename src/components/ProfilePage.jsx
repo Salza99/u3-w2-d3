@@ -10,13 +10,7 @@ const ProfilePage = () => {
           <img className="img-fluid" src={Avatar} alt="Immagine di profilo" />
         </Col>
         <Col xs={12} sm={9} md={7} className="mt-4 mt-sm-0">
-          <input
-            type="text"
-            readonly
-            placeholder="Strive Student"
-            className="bg-secondary text-light mb-4"
-            value="Strive Student"
-          />
+          <input type="text" placeholder="Strive Student" className="bg-secondary text-light mb-4" />
           <div className="mb-4">
             <h5 className="text-secondary">Language:</h5>
           </div>
@@ -41,8 +35,11 @@ const ProfilePage = () => {
                 </p>
               </div>
               <div className="d-flex align-items-center mb-4">
-                <p class="text-light mb-0">
-                  <input class="form-check-input bg-dark text-secondary fs-4 border-secondary mt-0" type="checkbox" />
+                <p className="text-light mb-0">
+                  <input
+                    className="form-check-input bg-dark text-secondary fs-4 border-secondary mt-0"
+                    type="checkbox"
+                  />
                   Autoplay previews while broswing on all devices
                 </p>
               </div>
