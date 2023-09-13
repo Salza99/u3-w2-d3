@@ -14,34 +14,34 @@ class MyFooter extends Component {
         </div>
         <Row>
           <Col xs={6} md={3} className="text-secondary">
-            <NavLink href="#">Audio and Subtitled</NavLink>
+            <NavLink>Audio and Subtitled</NavLink>
 
-            <NavLink href="#">Media Center</NavLink>
+            <NavLink>Media Center</NavLink>
 
-            <NavLink href="#">Privacy</NavLink>
+            <NavLink>Privacy</NavLink>
 
-            <NavLink href="#">Contact Us</NavLink>
+            <NavLink>Contact Us</NavLink>
           </Col>
           <Col xs={6} md={3} className="text-secondary">
-            <NavLink href="#">Audio Description</NavLink>
+            <NavLink>Audio Description</NavLink>
 
-            <NavLink href="#">Investor Relations</NavLink>
+            <NavLink>Investor Relations</NavLink>
 
-            <NavLink href="#">Legal Notices</NavLink>
+            <NavLink>Legal Notices</NavLink>
           </Col>
           <Col xs={6} md={3} className="text-secondary">
-            <NavLink href="#">Help Center</NavLink>
+            <NavLink>Help Center</NavLink>
 
-            <NavLink href="#">Jobs</NavLink>
+            <NavLink>Jobs</NavLink>
 
-            <NavLink href="#">Cookie Preferences</NavLink>
+            <NavLink>Cookie Preferences</NavLink>
           </Col>
           <Col xs={6} md={3} className="text-secondary">
-            <NavLink href="#">Gift Cards</NavLink>
+            <NavLink>Gift Cards</NavLink>
 
-            <NavLink href="#">Terms of Use</NavLink>
+            <NavLink>Terms of Use</NavLink>
 
-            <NavLink href="#">Corporate Informations</NavLink>
+            <NavLink>Corporate Informations</NavLink>
           </Col>
         </Row>
         <div className="d-flex">
